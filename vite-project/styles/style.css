@@ -1,28 +1,22 @@
+html {
+  box-sizing: border-box;
+}
 
 body {
   background-image: url("https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-3840x2160-4523.jpg");
   background-size: 100vw;
 }
-<!-- HTML !-->
-<button class="button-76" role="button">Button 76</button>
-
-/* CSS */
-.button-76 {
-  background-color: #cf245f;
-  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
-  border: 0;
-  border-radius: .25rem;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1.125rem; /* 18px */
-  font-weight: 600;
-  line-height: 1.75rem; /* 28px */
-  padding: 1rem 1.25rem;
-  text-align: center;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+h1{
+  color: rgb(255, 16, 240);
 }
-
+.wrapper{
+	max-width: 53.33rem;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	transform: translateY(-50%);
+	top:50%;
+	text-align: center;
+}
+.ls-medium{letter-spacing: 4px;}
+.ls-xlarge{letter-spacing: 12px;}
