@@ -1,8 +1,8 @@
 const DOM = {
-    Horror: document.getElementById("Horror"),
-    Comedy: document.getElementById("Comedy"),
-    Action: document.getElementById("Action"),
-    Display: document.getElementById("Display")
-}
+  Horror: document.getElementById("Horror"),
+  Comedy: document.getElementById("Comedy"),
+  Action: document.getElementById("Action"),
+  Display: document.getElementById("Display"),
+};
 
-export {DOM}
+export { DOM };
