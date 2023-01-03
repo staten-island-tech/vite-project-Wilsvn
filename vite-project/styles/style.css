@@ -69,8 +69,7 @@ h1{
 	font-size: 2rem; /* 36 / 18 = 2 */
 	margin-bottom: 0.825rem;
   }
-  /* CSS */
-  .button-64 {
+  .btn {
 	align-items: center;
 	background-image: linear-gradient(144deg,#fff, #f0f 50%,#0ff);
 	border: 0;
@@ -94,12 +93,12 @@ h1{
 	cursor: pointer;
   }
   
-  .button-64:active,
-  .button-64:hover {
+  .btn:active,
+  .btn:hover {
 	outline: 0;
   }
   
-  .button-64 span {
+  .btn span {
 	background-color: rgb(5, 6, 45);
 	padding: 16px 24px;
 	border-radius: 6px;
@@ -108,60 +107,12 @@ h1{
 	transition: 300ms;
   }
   
-  .button-64:hover span {
+  .btn:hover span {
 	background: none;
   }
   
   @media (min-width: 768px) {
-	.button-64 {
-	  font-size: 24px;
-	  min-width: 196px;
-	}
-  }
-  .button-65 {
-	align-items: center;
-	background-image: linear-gradient(144deg,#fff, #f0f 50%,#0ff);
-	border: 0;
-	border-radius: 8px;
-	box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-	box-sizing: border-box;
-	color: #FFFFFF;
-	display: flex;
-	font-family: Phantomsans, sans-serif;
-	font-size: 20px;
-	justify-content: center;
-	line-height: 1em;
-	max-width: 100%;
-	min-width: 140px;
-	padding: 3px;
-	text-decoration: none;
-	user-select: none;
-	-webkit-user-select: none;
-	touch-action: manipulation;
-	white-space: nowrap;
-	cursor: pointer;
-  }
-  
-  .button-65:active,
-  .button-65:hover {
-	outline: 0;
-  }
-  
-  .button-65 span {
-	background-color: rgb(5, 6, 45);
-	padding: 16px 24px;
-	border-radius: 6px;
-	width: 100%;
-	height: 100%;
-	transition: 300ms;
-  }
-  
-  .button-65:hover span {
-	background: none;
-  }
-  
-  @media (min-width: 768px) {
-	.button-65 {
+	.btn {
 	  font-size: 24px;
 	  min-width: 196px;
 	}
