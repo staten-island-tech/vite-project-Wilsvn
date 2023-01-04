@@ -6,7 +6,6 @@ html {
 	  -webkit-font-feature-settings: "liga", "dlig";
 	  -o-font-feature-settings: "liga", "dlig";
 	  font-feature-settings: "liga", "dlig";
-	  animation: slidein 10s infinite;
   }
   h1,
   h2,
@@ -50,6 +49,7 @@ h1{
 	  0 0 100px 60px #f0f, /* middle magenta */
 	  0 0 140px 90px #0ff; /* outer cyan */
   }
+.Car
 .ls-medium{letter-spacing: 4px;}
 .ls-xlarge{letter-spacing: 12px;}
 .open-sans{font-family: 'Open Sans';}
