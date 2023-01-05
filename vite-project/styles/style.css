@@ -49,6 +49,19 @@ h1{
 	  0 0 100px 60px #f0f, /* middle magenta */
 	  0 0 140px 90px #0ff; /* outer cyan */
   }
+#Display{
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-flow: row;
+	justify-content: space-around;
+}
+.card{
+    
+}
+.image{
+	height: 30vh;
+}
 .Car
 .ls-medium{letter-spacing: 4px;}
 .ls-xlarge{letter-spacing: 12px;}
@@ -91,6 +104,7 @@ h1{
 	touch-action: manipulation;
 	white-space: nowrap;
 	cursor: pointer;
+	flex-direction: row;
   }
   
   .btn:active,

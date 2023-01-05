@@ -7,10 +7,10 @@ DOM.Horror.addEventListener("click", function () {
   Movies.filter((Movies) => Movies.genre.includes("horror")).forEach((Movies) =>
     DOM.Display.insertAdjacentHTML(
       "beforeend",
-      `<div class="card">
-      <h1>${Movies.name}</h1>
-      <h2>${Movies.tomatoes}</h2>
-      <img src="${Movie.img}">
+      `<div class="card epsilon ls-medium">
+      <p>${Movies.name}</p>
+      <p>${Movies.tomatoes}</p>
+      <img class="image" src="${Movies.img}">
       </div>`
     )
   );
@@ -21,10 +21,10 @@ DOM.Comedy.addEventListener("click", function () {
   Movies.filter((Movies) => Movies.genre.includes("comedy")).forEach((Movies) =>
     DOM.Display.insertAdjacentHTML(
       "beforeend",
-      `<div class="card">
+      `<div class="card epsilon ls-medium">
       <h1>${Movies.name}</h1>
       <h2>${Movies.tomatoes}</h2>
-      <img src="${Movie.img}">
+      <img class="image" src="${Movies.img}">
       </div>`
     )
   );
@@ -35,10 +35,10 @@ DOM.Action.addEventListener("click", function () {
   Movies.filter((Movies) => Movies.genre.includes("action")).forEach((Movies) =>
     DOM.Display.insertAdjacentHTML(
       "beforeend",
-      `<div class="card">
+      `<div class="card epsilon ls-medium">
       <h1>${Movies.name}</h1>
       <h2>${Movies.tomatoes}</h2>
-      <img src="${Movie.img}">
+      <img class="image" src="${Movies.img}">
       </div>`
     )
   );
