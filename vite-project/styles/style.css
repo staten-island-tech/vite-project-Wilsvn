@@ -57,7 +57,10 @@ h1{
 	justify-content: space-around;
 }
 .card{
-    
+    box-shadow:
+	  0 0 35px 5px #fff,  /* inner white */
+	  0 0 75px 35px #f0f, /* middle magenta */
+	  0 0 115px 65px #0ff;
 }
 .image{
 	height: 30vh;
