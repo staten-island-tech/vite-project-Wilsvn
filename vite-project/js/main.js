@@ -7,7 +7,7 @@ DOM.Horror.addEventListener("click", function () {
   Movies.filter((Movies) => Movies.genre.includes("horror")).forEach((Movies) =>
     DOM.Display.insertAdjacentHTML(
       "beforeend",
-      `<div class="card">
+      `<div class="cool">
       <p>${Movies.name}</p>
       <p>${Movies.tomatoes} Rotten Tomatoes</p>
       <img class="image" src="${Movies.img}">
@@ -21,7 +21,7 @@ DOM.Comedy.addEventListener("click", function () {
   Movies.filter((Movies) => Movies.genre.includes("comedy")).forEach((Movies) =>
     DOM.Display.insertAdjacentHTML(
       "beforeend",
-      `<div class="card">
+      `<div class="cool">
       <p>${Movies.name}</p>
       <p>${Movies.tomatoes} Rotten Tomatoes</p>
       <img class="image" src="${Movies.img}">
@@ -35,11 +35,20 @@ DOM.Action.addEventListener("click", function () {
   Movies.filter((Movies) => Movies.genre.includes("action")).forEach((Movies) =>
     DOM.Display.insertAdjacentHTML(
       "beforeend",
-      `<div class="card">
+      `<div class="cool">
       <p>${Movies.name}</p>
       <p>${Movies.tomatoes} Rotten Tomatoes</p>
       <img class="image" src="${Movies.img}">
       </div>`
     )
   );
+});
+DOM.Theme.addEventListener("click", function () {
+  if (document.DOM.Cool.classList.contains("cool")) {
+    document.DOM.Cool.classList.add("warm");
+    document.DOM.Cool.classList.remove("cool");
+  } else {
+    document.DOM.Cool.classList.add("cool");
+    document.DOM.Cool.classList.remove("warm");
+  }
 });

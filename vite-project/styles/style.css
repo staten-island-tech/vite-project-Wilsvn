@@ -56,11 +56,17 @@ h1{
 	flex-flow: row;
 	justify-content: space-around;
 }
-.card{
+.cool{
     box-shadow:
 	  0 0 35px 5px #fff,  /* inner white */
 	  0 0 75px 35px #f0f, /* middle magenta */
 	  0 0 115px 65px #0ff;
+}
+.warm{
+	box-shadow:
+	  0 0 35px 5px #fff,  
+	  0 0 75px 35px rgb(255, 0, 72), 
+	  0 0 115px 65px rgb(74, 2, 255);
 }
 .image{
 	height: 30vh;
